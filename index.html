@@ -481,12 +481,14 @@
         }
 
 
-       .portfolio .box-container .box img {
+      .portfolio .box-container .box img {
             width: 100%;
-            height: 300px;
+            height: auto;          /* auto height for mobile */
+            max-height: 300px;     /* limit height on large screens */
             object-fit: cover;
             display: block;
         }
+
 
 
 
